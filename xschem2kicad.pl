@@ -1,5 +1,6 @@
 #!/usr/bin/perl -w
 use strict;
+use POSIX qw/ceil/;
 
 my $filename = 'sky130.lib';
 open(FH, '>', $filename) or die $!;
